@@ -1,5 +1,7 @@
 # Animator
 
+![](https://github.com/techshot25/animator/workflows/Python%20package/badge.svg)
+
 A python tool for making animated plots
 
 ## Installation
