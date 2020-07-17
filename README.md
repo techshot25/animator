@@ -2,10 +2,18 @@
 
 A python tool for making animated plots
 
+## Installation
+
+Clone repo and run this in the directory:
+
+```bash
+pip install .
+```
+
 ## Dependencies
 
-matplotlib>=3.1.3
-numpy>=1.18.1
+- matplotlib>=3.1.3
+- numpy>=1.18.1
 
 ## Example usage
 
