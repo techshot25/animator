@@ -23,7 +23,7 @@ class ScatterAnimation:
         self.p = margin_percentage
         self.anim = FuncAnimation(self.fig, self.update, interval=interval, 
                                   frames=self.Y.shape[0],
-                                  init_func=self.init_func, blit=True);
+                                  init_func=self.init_func, blit=True)
 
     def init_func(self):
         x = self.x
@@ -38,7 +38,7 @@ class ScatterAnimation:
             self.Y.max() + self.p * np.ptp(self.Y) # ymax
         ])
         return self.scat,
-    
+
     def update(self, i):
         y = self.Y[i]
         self.scat.set_offsets(np.c_[self.x, y])
